@@ -45,12 +45,14 @@ ALGORITHM
 
 
 ADVANTAGES
+
 •	 Simple to Implement – Easy to write using basic string functions or stacks.
 •	 Fast Execution – Can check palindromes in O(n) time.
 •	 Useful in Text Processing – Helps in spell checking and data validation.
 •	 Educational – Helps understand data structures like stacks and recursion.
 
 DISADVANTAGES
+
 •	 Limited Scope – Mostly used for text-based applications.
 •	 Memory Usage (Stack Approach) – Extra space needed to store stack elements.
 •	 Case Sensitivity & Special Characters – Requires preprocessing.
