@@ -28,7 +28,7 @@ ALGORITHM
                            - >Convert it to lowercase (use tolower()).
                            -> Append the lowercase character to the preprocessed string.
                            - >After processing all characters, the preprocessed string only contains lowercase alphabets.
-       Step 4:   Palindrome Check Phase:
+    Step 4:   Palindrome Check Phase:
                            -> Initialize two pointers: left starting at the beginning (index 0) and right starting 
                                 at the last character (index length - 1) of the preprocessed string.
                            - >While left is less than right:
@@ -37,10 +37,10 @@ ALGORITHM
                            ->Otherwise, increment left and decrement right to move towards the center of the string.
                            ->If all characters match until left is greater than or equal to right, return true 
                               (the string is a palindrome).
-      Step 5:   Output Phase:
+    Step 5:   Output Phase:
                            -> If the result of the palindrome check is true, print that the phrase is a palindrome.
                            ->Otherwise, print that the phrase is not a palindrome.
-      Step 6:  End:
+    Step 6:  End:
                            ->Terminate the program. 
 
 
